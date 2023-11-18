@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teacher login</title>
-    <link rel="stylesheet" href="/asset/css/teacher_login.css">
+    <link rel="stylesheet" href="login.css">
+    
 </head>
 <body>
     <div class="container">
         <!-- login section started here -->
         <div class="login-section">
-            <h1>LOGIN</h1>
+            <h1>TEACHER LOGIN</h1>
             <div class="input-box">
-                <span><img src="/asset/logo/id-card-regular-24.png" ></span>
-                <input class="input" type="text" placeholder="Enter Your teacher ID">
+                <span><img src="asset/logo/id-card-regular-24.png" ></span>
+                <input class="input" type="text" id="teacher_id" placeholder="Enter Your teacher ID">
                 <!-- <span class="label">Enter Your teacher ID</label> -->
             </div>
             <div class="input-box">
-                <span><img src="/asset/logo/lock-alt-regular-24.png" ></span>
-                <input class="input" type="password" placeholder="Enter Your Password">
+                <span><img src="asset/logo/lock-alt-regular-24.png" ></span>
+                <input class="input" type="password" id="teacher_pass" placeholder="Enter Your Password">
                 <!-- <span class="label">Enter Your Passward </label> -->
             </div>
             <div class="login-btn">
@@ -30,8 +31,9 @@
         </div>
         <!-- image section started here -->
         <div class="image-section">
-            <img src="/asset/image/pngwing.com.png" alt="">
+            <img src="asset/image/pngwing.com.png" alt="">
         </div>
     </div>
+    <script src="./teacher.js"></script>
 </body>
 </html>
