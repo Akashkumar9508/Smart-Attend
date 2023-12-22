@@ -229,7 +229,7 @@ section {
     height: 150px;
     width: 90%;
     /* background-color: red; */
-    padding: 0 30px;
+    padding: 0 0px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -260,12 +260,28 @@ section {
     height: 90%;
     justify-content: space-around;
     align-items: center;
+    margin-left: 60px;
+    gap: 20px;
+}
+.first-section-dropdown select{
+    /* background-color: red; */
+    border:1px solid #9603ad;
+    border-radius: 7px;
+    height: 45px;
+    padding: 5px 15px;
+    outline: none;
+    background: #d154ff;
+    color: #fff;
+}
+.first-section-dropdown select option{
+    color: #5E006D;
+    background-color:#ffdddd;
 }
 
 .first-section-box .generate-btn {
-    margin-right: 20px;
+    margin-right: 60px;
     text-decoration: none;
-
+    
 }
 
 .bn54 {
