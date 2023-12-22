@@ -32,4 +32,4 @@ Smart Attend is a web application designed to track attendance in a smart way. I
 
 ## License
 
-Copyright © 2022. All Rights Reserved to Smart Attend Team !
+Copyright © 2023. All Rights Reserved to Smart Attend Team !
